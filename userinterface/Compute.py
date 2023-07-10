@@ -19,16 +19,9 @@ class Compute:
                 "|                        CREAR VM                                      |\n"+
                 "+----------------------------------------------------------------------+")
         vm=input("[.] Ingrese el nombre de la vm: ")
-        network=input("[.] Ingrese la red de la vm: ")
         description=input("[.] Ingrese una descripción: ")
+        network=input("[.] Ingrese la red de la vm: ")
+        flavor=input("[.] Ingrese el flavor respectivo: ")
         n_vm=input("[.] Ingrese cuantas VMs desea crear:")
         print("+----------------------------------------------------------------------+\n")
         
-        # Se escoge que tipo de flavor
-
-        # Se escoge que tipo de imagen
-
-        # Se escoge las reglas de seguridad
-
-        # Se escoge el tipo de autenticación
-

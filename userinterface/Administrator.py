@@ -13,6 +13,8 @@ class Administrator:
     def menu():
         while True:
             os.system("cls")
+            # This home must request the user permission and in order of that
+            # list all the availables modules
             print("\n+-----------------------------------------------------+\n"+
                     "|              Home del Administrador                 |\n"+
                     "+-----------------------------------------------------+\n"+

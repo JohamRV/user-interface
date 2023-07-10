@@ -28,15 +28,38 @@ class SubMenu():
         from userinterface.User import User
         User.list_users()
 
+
+    @staticmethod
+    def show_flavors():
+        from userinterface.Flavor import Flavor
+        Flavor.list_flavors()
+
+
+    @staticmethod
+    def show_images():
+        from userinterface.Image import Image
+        Image.list_images()
+
+
+    @staticmethod
+    def show_security_groups():
+        from userinterface.Security import Security
+        Security.list_security_groups()
+
     @staticmethod
     def go_topology_menu():
         from userinterface.Network import Network
-        Network.menu()
+        Network.create_topology()
 
     @staticmethod
     def go_compute_menu():
         from userinterface.Compute import Compute
         Compute.menu()
+
+    @staticmethod
+    def create_vm_by_level():
+        from userinterface.Compute import Compute
+        Compute.create_vm()
 
     @staticmethod
     def go_image_menu():
